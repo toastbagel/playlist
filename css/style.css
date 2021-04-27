@@ -3,7 +3,7 @@ h1 {
 }
 
 .display {
-  display: flex;
+  display: block;
   justify-content: center;
   border-top: 5px solid black;
   border-bottom: 5px solid black;
@@ -15,7 +15,7 @@ h1 {
 }
 
 .images img {
-  display: block;
+  display: inline;
   height: 100px;
   width: auto;
   margin: 20px;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .links a {
-  display: block;
+  display: inline;
   font-size: 18px;
   height: 100px;
   font-weight: bold;
