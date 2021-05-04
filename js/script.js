@@ -57,7 +57,25 @@ function emptySongInfo() {
 }
 
 function addSongInfo() {
-  // Complete Day 3 goals inside this function
+  let newSong = $(".song").val();
+  songList.push(newSong);
+  $(".song").val("");
+  
+  let newImage = $(".image").val();
+  songImages.push(newImage);
+  $(".image").val("");
+  
+   let newLength = $(".length").val();
+  songLength.push(newLength);
+  $(".length").val("");
+  
+   let newLink = $(".link").val();
+  songLinks.push(newLink);
+  $(".link").val("");
+  
+  let newAuthor = $(".artist").val();
+  songAuthors.push(newAuthor);
+  $(".artist").val("");
 }
 
 $("#add").click(function() {
