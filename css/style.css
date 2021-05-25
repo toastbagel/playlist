@@ -3,7 +3,7 @@ h1 {
 }
 
 .display {
-  display: block;
+  display: flex;
   justify-content: center;
   border-top: 5px solid black;
   border-bottom: 5px solid black;
@@ -11,13 +11,13 @@ h1 {
 
 .column {
   width: 18%;
-  padding: 25px 0px;
+  padding: 10px 0px;
 }
 
 .images img {
-  display: inline;
-  height: 100px;
-  width: auto;
+  display: flex;
+  height: auto;
+  width: 100px;
   margin: 20px;
 }
 
@@ -29,20 +29,25 @@ h1 {
 }
 
 .artists p {
-  font-size: 18px;
+font-size: 18px;
   height: 100px;
+  font-weight: bold;
   margin: 20px;
+  text-align: center;
 }
 
 .lengths p {
-  font-size: 16px;
+font-size: 18px;
   height: 100px;
-  margin: 20px;
-  text-align: right;
+  font-weight: bold;
+  text-align:center;
+  margin-top:20px;
+
+  
 }
 
 .links a {
-  display: inline;
+  display: flex;
   font-size: 18px;
   height: 100px;
   font-weight: bold;
@@ -63,4 +68,8 @@ input {
 button {
   font-size: 14px;
   padding: 5px 10px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
 }
